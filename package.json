@@ -1,5 +1,5 @@
 {
-  "name": "15-dec",
+  "name": "assing6",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:15Dec": "node dist/15-dec/server/server.mjs"
+    "serve:ssr:Assing6": "node dist/assing6/server/server.mjs"
   },
   "private": true,
   "dependencies": {
