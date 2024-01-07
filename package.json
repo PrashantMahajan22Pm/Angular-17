@@ -1,5 +1,5 @@
 {
-  "name": "assign-ment7",
+  "name": "assign112",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:AssignMent7": "node dist/assign-ment7/server/server.mjs"
+    "serve:ssr:Assign112": "node dist/assign112/server/server.mjs"
   },
   "private": true,
   "dependencies": {

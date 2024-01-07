@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AssignMent7": {
+    "Assign112": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/assign-ment7",
+            "outputPath": "dist/assign112",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AssignMent7:build:production"
+              "buildTarget": "Assign112:build:production"
             },
             "development": {
-              "buildTarget": "AssignMent7:build:development"
+              "buildTarget": "Assign112:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "AssignMent7:build"
+            "buildTarget": "Assign112:build"
           }
         },
         "test": {
