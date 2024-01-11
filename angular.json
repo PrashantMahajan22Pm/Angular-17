@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "WithService": {
+    "Assign12Form": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/with-service",
+            "outputPath": "dist/assign12-form",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "WithService:build:production"
+              "buildTarget": "Assign12Form:build:production"
             },
             "development": {
-              "buildTarget": "WithService:build:development"
+              "buildTarget": "Assign12Form:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "WithService:build"
+            "buildTarget": "Assign12Form:build"
           }
         },
         "test": {
