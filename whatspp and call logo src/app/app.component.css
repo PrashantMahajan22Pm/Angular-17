@@ -1,0 +1,13 @@
+
+
+ .button
+ {  
+    font-size: 10px;
+    border-radius:8px;
+    transition-duration: 0.3s;
+ }
+.button1:hover
+{
+    background-color:#54eafb;
+    color: grey;
+}
