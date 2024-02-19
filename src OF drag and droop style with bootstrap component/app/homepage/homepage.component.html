@@ -1,0 +1,47 @@
+
+
+<div class="pk">
+
+    <h1 > Welcome to the service center  </h1>
+    <h2> Welcome to the service center  </h2>
+    <h3> Welcome to the service center  </h3>
+    <h4> Welcome to the service center  </h4>
+    <h5> Welcome to the service center  </h5>
+    <h6> Welcome to the service center  </h6>
+
+</div>
+
+<div class="row">
+    <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+      <bs-sortable
+        [(ngModel)]="itemObjectsLeft"
+        fieldName="name"
+        itemClass="sortable-item"
+        itemActiveClass="sortable-item-active"
+        placeholderItem="Drag here"
+        placeholderClass="placeholderStyle text-center"
+        wrapperClass="sortable-wrapper"
+      ></bs-sortable>
+    </div>
+    <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+      <bs-sortable
+        [(ngModel)]="itemObjectsRight"
+        fieldName="name"
+        itemClass="sortable-item"
+        itemActiveClass="sortable-item-active"
+        placeholderItem="Drag here"
+        placeholderClass="placeholderStyle text-center"
+        wrapperClass="sortable-wrapper"
+      ></bs-sortable>
+    </div>
+  </div>
+   
+  <div class='row'>
+    <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+      <pre class="code-preview">model: {{ itemObjectsLeft | json }}</pre>
+    </div>
+   
+    <div class="col-xs-6 col-6 col-md-5 col-lg-3">
+      <pre class="code-preview">model: {{ itemObjectsRight | json }}</pre>
+    </div>
+  </div>
